@@ -11,7 +11,6 @@ interface TicTacToeInterface {
 	playGame?: Function;
 }
 
-
 class TicTacToeGame implements TicTacToeInterface {
 	board: string[][];
 
